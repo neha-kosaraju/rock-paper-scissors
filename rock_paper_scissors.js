@@ -24,5 +24,5 @@ function gameResults () {
 
 }
 
-let player = "rock";
+let player = ;
 gameResults();
