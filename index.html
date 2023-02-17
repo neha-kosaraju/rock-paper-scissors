@@ -23,13 +23,14 @@
         </div>
 
         <div id="buttons">
-            <button id="rock" value="rock"></button>
-            <button id="paper" value="paper"></button>
-            <button id="scissors" value="scissors"></button>
+            <button id="rock" value="rock" onclick="gameResults()"></button>
+            <button id="paper" value="paper" onclick="gameResults()"></button>
+            <button id="scissors" value="scissors" onclick="gameResults()"></button>
         
         </div>
 
         <div id="result">
+            <p id="result-message"></p>
             
         </div>
 
@@ -37,8 +38,8 @@
         <script src="rock_paper_scissors.js"></script>
 
         <footer id="references">
-            <p id="link-references">References: The picture of the <a id="rock-link" href="https://unsplash.com/photos/66BgmIglPhM">
-                rock</a>,<a id="paper-link" href="https://unsplash.com/photos/GmNTYBH9DUE"> paper</a>, and <a id="scissors-link" href="https://unsplash.com/photos/SmocKx2oDZc">
+            <p id="link-references">References: The picture of the <a target="_blank" id="rock-link" href="https://unsplash.com/photos/66BgmIglPhM">
+                rock</a>,<a target="_blank" id="paper-link" href="https://unsplash.com/photos/GmNTYBH9DUE"> paper</a>, and <a target="_blank" id="scissors-link" href="https://unsplash.com/photos/SmocKx2oDZc">
                 scissors</a> all belong to unsplash.</p>
         </footer>
     </body>
