@@ -14,9 +14,13 @@ document.getElementById("scissors").addEventListener("click", function() {
     gameResults();
 });
 
-let gameNumber = document.getElementById("game").innerHTML;
-let computerPoints = document.getElementById("computer").innerHTML;
-let playerPoints = document.getElementsById("player").innerHTML;
+let gameNumber = 0;
+let computerPoints = 0;
+let playerPoints = 0;
+
+document.getElementById("game").innerHTML = gameNumber;
+document.getElementById("computer").innerHTML = computerPoints;
+document.getElementById("player").innerHTML = playerPoints;
 
 function gameResults() {
 
@@ -50,5 +54,7 @@ function gameResults() {
     }
 
     document.getElementById("game").innerHTML = gameNumber;
+    document.getElementById("computer").innerHTML = computerPoints;
+    document.getElementById("player").innerHTML = playerPoints;
     
 }

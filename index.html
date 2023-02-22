@@ -7,9 +7,22 @@
         <title>Rock, Paper, Scissors</title>
     </head>
     <body>
-        <header id="gamename">
+        
+        <div id="scores">
+            <div id="games" class="score"><p id = "glabel">Game Number </p>
+             <p id="game"></p>
+            </div>
+            <div id="computers" class="score"><p id="clabel">Computer </p>
+             <p id="computer"></p>
+            </div>
+             <div id="players" class="score"><p id="plabel">Player </p>
+             <p id="player"></p>
+            </div>
+        </div>
+        
+
             <h1 class="rps">Rock, Paper, Scissors</h1>
-        </header>
+
 
         <div id="instructions">
             <p class="description">Ready to play a game of Rock, Paper, Scissors?<br>
@@ -22,21 +35,16 @@
             </p>
         </div>
 
+
+            
         <div id="buttons" class="choice">
             <button id="rock" value="rock" class="choice"></button>
             <button id="paper" value="paper" class="choice"></button>
             <button id="scissors" value="scissors" class="choice"></button>
-        
         </div>
 
         <div id="result">
             <p id="result-message"></p>
-            <p id="scores">
-                <p id="game"></p>
-                <p id="computer"></p>
-                <p id="player"></p>
-            </p>
-            
         </div>
 
 
