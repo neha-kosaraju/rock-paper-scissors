@@ -28,6 +28,7 @@ function gameResults() {
     let computer = options[Math.round(Math.random()*options.length)];
 
     gameNumber++;
+
     
     if (player === "Rock" && computer === "Paper") {
         document.getElementById("result-message").innerHTML = "Better luck next time! Paper beats rock.";
@@ -56,5 +57,5 @@ function gameResults() {
     document.getElementById("game").innerHTML = gameNumber;
     document.getElementById("computer").innerHTML = computerPoints;
     document.getElementById("player").innerHTML = playerPoints;
-    
+
 }
